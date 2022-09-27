@@ -23,13 +23,6 @@ const Skills= () => {
             <div className="col-lg-6">
 
               <div className="progress">
-                <span className="skill">HTML & CSS <i className="val">90%</i></span>
-                <div className="progress-bar-wrap">
-                    <LinearProgress variant="determinate" value={90} />
-                </div>
-              </div>
-
-              <div className="progress">
                 <span className="skill">React.js <i className="val">70%</i></span>
                 <div className="progress-bar-wrap">
                   <LinearProgress variant="determinate" value={70} />
@@ -40,6 +33,13 @@ const Skills= () => {
                 <span className="skill">Angular.js <i className="val">60%</i></span>
                 <div className="progress-bar-wrap">
                   <LinearProgress variant="determinate" value={60} />
+                </div>
+              </div>
+
+              <div className="progress">
+                <span className="skill">HTML & CSS <i className="val">90%</i></span>
+                <div className="progress-bar-wrap">
+                  <LinearProgress variant="determinate" value={90} />
                 </div>
               </div>
 
@@ -55,14 +55,14 @@ const Skills= () => {
               </div>
 
               <div className="progress">
-                <span className="skill">Git <i className="val">90%</i></span>
+                <span className="skill">Github/Azure DevOps <i className="val">90%</i></span>
                 <div className="progress-bar-wrap">
                   <LinearProgress variant="determinate" value={90} />
                 </div>
               </div>
 
               <div className="progress">
-                <span className="skill">Photoshop <i className="val">55%</i></span>
+                <span className="skill">Azure Cloud <i className="val">55%</i></span>
                 <div className="progress-bar-wrap">
                   <LinearProgress variant="determinate" value={55} />
                 </div>

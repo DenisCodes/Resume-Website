@@ -75,6 +75,8 @@ const Resume = () => {
                     Angular modules</li>
                   <li>Implemented lazy loading for all databases used by the admin portal to dramatically
                     increase load times</li>
+                  <li>Created a .net tool for QA to stress test API calls and find memory leaks</li>
+                  <li>Managed and deployed apps using Azure DevOps as well as monitoring and maintaining them on Azure Cloud</li>
                 </ul>
               </div>
               <div className="resume-item">

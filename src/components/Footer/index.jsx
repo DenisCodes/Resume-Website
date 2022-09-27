@@ -9,9 +9,6 @@ import '../CSS/aos/aos.css'
 import '../CSS/general.css'
 
 const Footer = () => {
-  const toggleHome = () => {
-    scroll.scrollToTop();
-  }
 
   return (
       <div>
@@ -32,9 +29,6 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-        <a to='/' onClick={toggleHome} className="back-to-top">
-          <h>^</h>
-        </a>
       </div>
 
   )

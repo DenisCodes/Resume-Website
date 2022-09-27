@@ -69,6 +69,9 @@ export const NavItem= styled.li`
 export const NavText = styled.p`
   color: ${({scrollNav}) => (scrollNav ? '#ffffff' : '#0563bb')};
 `
+export const NavTop = styled.div`
+  visibility: ${({scrollNav}) => (scrollNav ? '' : 'hidden')};
+`
 export const NavLinks = styled(LinkS)`
   color: #fff;
   display: flex;
