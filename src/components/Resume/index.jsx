@@ -32,7 +32,7 @@ const Resume = () => {
 
               <h3 className="resume-title">Education</h3>
               <div className="resume-item">
-                <h4>B.S. in Web and Information Systems</h4>
+                <h4>B.S. Web and Information Systems</h4>
                 <h5>Sep 2018 - May 2022</h5>
                 <p><em>New Jersey Institute of Technology, Newark, NJ</em></p>
                 <ul>

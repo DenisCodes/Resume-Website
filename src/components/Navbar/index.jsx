@@ -6,6 +6,7 @@ import {
   NavbarContainer,
   NavLogo,
   MobileIcon,
+  MobileColor,
   NavMenu,
   NavLinks,
   NavItem,
@@ -49,7 +50,9 @@ const Navbar = ({ toggle }) => {
         <NavbarContainer>
           <NavLogo scrollNav={scrollNav} to='/' onClick={toggleHome}>Denis Smirnov</NavLogo>
           <MobileIcon onClick={toggle}>
-            <FaBars />
+            <MobileColor scrollNav={scrollNav}>
+              <FaBars />
+            </MobileColor>
           </MobileIcon>
           <NavMenu>
             <NavItem >

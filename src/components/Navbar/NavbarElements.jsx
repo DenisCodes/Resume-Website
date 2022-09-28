@@ -52,6 +52,9 @@ export const MobileIcon = styled.div`
     color: #fff;
   }
 `
+export const MobileColor = styled.div`
+  visibility: ${({scrollNav}) => (scrollNav ? '' : 'hidden')};
+`
 export const NavMenu = styled.ul`
   display:flex;
   justify-content: center;
