@@ -19,10 +19,10 @@ const About = () => {
 
           <div className="row">
             <div className="col-lg-4">
-              <img src="https://cdn.discordapp.com/attachments/109730701175222272/1011700946188898339/profile-img-big.png" className="img-fluid" alt=""/>
+              <img src="https://media.licdn.com/dms/image/v2/D4E03AQGz11nd5ioSDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726961346138?e=1758758400&v=beta&t=ly3RkDCtpFDr78QiuxPiHZOq52waaoaKrNMSpiRVrnQ" className="img-fluid" alt=""/>
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content">
-              <h3>Frontend Developer</h3>
+              <h3>Software Engineer</h3>
               <p className="font-italic">
               </p>
               <div className="row">
@@ -42,13 +42,7 @@ const About = () => {
                 </div>
               </div>
               <p>
-                I am a Business and Information Systems Masters student with 2+ years of experience using frontend web
-                development technologies such as React, ASP.net Core, Angular, and Git to deliver cutting-edge robust
-                products. As an experienced professional, I am looking for a Frontend Software Engineer role in a
-                dynamic organization that values my communication and technical skills while providing a scope for
-                further career development. I am interested in a fast-paced position where I can help to grow the
-                company, achieve corporate goals, that gives me opportunities to further myself, and take on more
-                responsibilities.
+                I hold a Master’s degree in Business and Information Systems and bring over 4 years of hands-on experience in frontend and backend web development. I specialize in building robust, user-focused applications using technologies like React, Java Spring Boot, Angular, ASP core .net,  AWS/Azure cloud, and Git. I’m actively seeking a full-time Frontend/Full stack Software Engineer role within a dynamic organization that values both strong technical expertise and clear communication. I thrive in fast-paced environments where I can contribute to business growth, take on new challenges, and continue advancing my career.
               </p>
             </div>
           </div>

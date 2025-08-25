@@ -16,14 +16,14 @@ const Hero = () => {
               <h1>Denis Smirnov</h1>
               <div className="typecontainer">
                   <div class="typewriter">
-                      <p>I am a <pb>Developer </pb></p>
+                      <p>I am a <pb>Software Engineer </pb></p>
                   </div>
               </div>
               <div className="social-links">
                   <a href="https://www.instagram.com/shots_of_smirnov/" className="instagram"><i
                       className="bx bxl-instagram"></i></a>
                   <a href="https://github.com/DenisCodes" className="github"><i className="bx bxl-github"></i></a>
-                  <a href="https://www.linkedin.com/in/denis-smirnov-0521b2165/" className="linkedin"><i
+                  <a href="https://www.linkedin.com/in/denis-codes/" className="linkedin"><i
                       className="bx bxl-linkedin"></i></a>
                   <a href="mailto: smirnovadenis@gmail.com" className="envelope"><i className="bx bx-envelope"></i></a>
               </div>

@@ -23,23 +23,23 @@ const Skills= () => {
             <div className="col-lg-6">
 
               <div className="progress">
-                <span className="skill">React.js <i className="val">70%</i></span>
+                <span className="skill">React.js <i className="val">80%</i></span>
+                <div className="progress-bar-wrap">
+                  <LinearProgress variant="determinate" value={80} />
+                </div>
+              </div>
+
+              <div className="progress">
+                <span className="skill">Spring Boot <i className="val">70%</i></span>
                 <div className="progress-bar-wrap">
                   <LinearProgress variant="determinate" value={70} />
                 </div>
               </div>
 
               <div className="progress">
-                <span className="skill">Angular.js <i className="val">60%</i></span>
+                <span className="skill">Amazon Web Service <i className="val">75%</i></span>
                 <div className="progress-bar-wrap">
-                  <LinearProgress variant="determinate" value={60} />
-                </div>
-              </div>
-
-              <div className="progress">
-                <span className="skill">HTML & CSS <i className="val">90%</i></span>
-                <div className="progress-bar-wrap">
-                  <LinearProgress variant="determinate" value={90} />
+                  <LinearProgress variant="determinate" value={75} />
                 </div>
               </div>
 
@@ -48,23 +48,23 @@ const Skills= () => {
             <div className="col-lg-6">
 
               <div className="progress">
-                <span className="skill">ASP.NET Core <i className="val">40%</i></span>
+                <span className="skill">SQL <i className="val">80%</i></span>
                 <div className="progress-bar-wrap">
-                  <LinearProgress variant="determinate" value={40} />
+                  <LinearProgress variant="determinate" value={80} />
                 </div>
               </div>
 
               <div className="progress">
-                <span className="skill">Github/Azure DevOps <i className="val">90%</i></span>
-                <div className="progress-bar-wrap">
-                  <LinearProgress variant="determinate" value={90} />
-                </div>
-              </div>
-
-              <div className="progress">
-                <span className="skill">Azure Cloud <i className="val">55%</i></span>
+                <span className="skill">ASP.NET Core<i className="val">55%</i></span>
                 <div className="progress-bar-wrap">
                   <LinearProgress variant="determinate" value={55} />
+                </div>
+              </div>
+
+              <div className="progress">
+                <span className="skill">Angular <i className="val">65%</i></span>
+                <div className="progress-bar-wrap">
+                  <LinearProgress variant="determinate" value={65} />
                 </div>
               </div>
 
