@@ -24,7 +24,7 @@ const Resume = () => {
                 <h4>Denis Smirnov</h4>
 
                 <ul>
-                  <li>Metuchen, NJ</li>
+                  <li>New Jersey, USA</li>
                   <li>(732) 535-8907</li>
                   <li>das96@njit.edu</li>
                 </ul>

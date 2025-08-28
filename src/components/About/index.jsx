@@ -19,7 +19,7 @@ const About = () => {
 
           <div className="row">
             <div className="col-lg-4">
-              <img src="https://media.licdn.com/dms/image/v2/D4E03AQGz11nd5ioSDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726961346138?e=1758758400&v=beta&t=ly3RkDCtpFDr78QiuxPiHZOq52waaoaKrNMSpiRVrnQ" className="img-fluid" alt=""/>
+              <img src="https://cdn.discordapp.com/attachments/900090429054271599/1410666736071737415/me_circle.png?ex=68b1d946&is=68b087c6&hm=eb1cf140f6e461062b19cdb0085cc4c7dfa301222db1a4680b40f9f822128424" className="img-fluid" alt=""/>
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content">
               <h3>Software Engineer</h3>
@@ -28,14 +28,14 @@ const About = () => {
               <div className="row">
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="icofont-rounded-right"></i> <strong>Website:</strong> <a href="http://smirnov.plus/">smirnov.plus</a></li>
+                    <li><i className="icofont-rounded-right"></i> <strong>Website:</strong> <a href="https://smirnov.gg/">smirnov.gg</a></li>
                     <li><i className="icofont-rounded-right"></i> <strong>Phone:</strong> (732) 535-8907</li>
                     <li><i className="icofont-rounded-right"></i> <strong>Location:</strong> New Jersey, USA</li>
                   </ul>
                 </div>
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="icofont-rounded-right"></i> <strong>Degree:</strong> Graduate</li>
+                    <li><i className="icofont-rounded-right"></i> <strong>Degrees:</strong> MS in BIS & BS in WIS </li>
                     <li><i className="icofont-rounded-right"></i> <strong>Email:</strong> das96@njit.com</li>
                     <li><i className="icofont-rounded-right"></i> <strong>Birthday:</strong> 28 February 2000</li>
                   </ul>

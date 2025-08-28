@@ -23,7 +23,7 @@ const Skills= () => {
             <div className="col-lg-6">
 
               <div className="progress">
-                <span className="skill">React.js <i className="val">80%</i></span>
+                <span className="skill">React <i className="val">80%</i></span>
                 <div className="progress-bar-wrap">
                   <LinearProgress variant="determinate" value={80} />
                 </div>

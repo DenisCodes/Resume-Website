@@ -1155,30 +1155,57 @@ section {
 #footer .credits {
     font-size: 13px;
 }
-.typewriter p{
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .10em solid #0563bb; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .0em; /* Adjust as needed */
-    line-height: 1;
-    animation:
-            typing 1.5s steps(16, end),
-            blink-caret 1s step-end infinite;
+
+/* --- Typewriter: baseline-aligned, no reflow, reliable blink --- */
+.typewriter {
+  display: inline-grid;         /* stack ghost & text in same cell */
+  align-items: baseline;        /* align to line baseline */
+  position: relative;
+  vertical-align: baseline;
 }
 
-.typecontainer{
-    display: inline-block;
+/* Reserve the final width so the line never wraps or jumps */
+.typewriter .ghost {
+  grid-area: 1 / 1;
+  visibility: hidden;
+  white-space: nowrap;
+  padding-right: 8px;           /* caret gap (must match .text) */
+  line-height: 1.2;             /* match your #hero p */
 }
 
-/* The typing effect */
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+/* Animated overlay; same box as ghost */
+.typewriter .text {
+  grid-area: 1 / 1;
+  position: relative;           /* anchors the caret */
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #0563bb;               /* only the typed words are blue */
+  line-height: 1.2;
+  padding-right: 8px;           /* same gap as ghost -> no overshoot */
+  animation: typing-reveal 1.6s steps(17, end) forwards; /* 17 chars */
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: #0563bb; }
+/* Solid blinking caret (no border thinning) */
+.typewriter .text::after {
+  content: "";
+  position: absolute;
+  right: 0;                     /* sits in the 8px padding gap */
+  top: 0.02em;                  /* nudge to align; tweak -0.02..0.06em */
+  width: 2px;                   /* caret thickness */
+  height: 0.85em;               /* caret height; tweak 0.80–0.90em */
+  background: #0563bb;
+  animation: caret-blink 1s steps(1, end) infinite;
+  pointer-events: none;
+  transform: translateZ(0);
+}
+
+/* Unique keyframes to avoid collisions elsewhere */
+@keyframes typing-reveal {
+  from { width: 0; }
+  to   { width: 100%; }         /* exactly the ghost width (incl. 8px gap) */
+}
+@keyframes caret-blink {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0; }
 }

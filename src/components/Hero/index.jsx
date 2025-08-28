@@ -15,9 +15,13 @@ const Hero = () => {
           <div className="container">
               <h1>Denis Smirnov</h1>
               <div className="typecontainer">
-                  <div class="typewriter">
-                      <p>I am a <pb>Software Engineer </pb></p>
-                  </div>
+                <p>
+                I am a{" "}
+                <span className="typewriter">
+                <span className="ghost" aria-hidden="true">Software Engineer</span>
+                <span className="text">Software Engineer</span>
+                </span>
+                </p>
               </div>
               <div className="social-links">
                   <a href="https://www.instagram.com/shots_of_smirnov/" className="instagram"><i
